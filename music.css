@@ -1,0 +1,35 @@
+
+body{
+  text-align: center;
+  margin: 50px;
+  color: #fff;
+  background-color: #393B35;
+  font-family:Baskerville, 'Times New Roman', serif;
+}
+
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+#main{
+  width:100%;
+  height:100%;
+}
+
+
+article{
+  background-color:#fff;
+  margin:auto;
+  color:#000;
+  width:80%;
+  padding:20px;
+}
+
+@media (max-width: 800px ) {
+  h1{width:100%;}
+  img{margin-auto;}
+  article{width:80%;margin:auto;}
+  body{margin:0px;}
+  }
